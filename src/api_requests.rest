@@ -1,0 +1,20 @@
+
+# Orphanages Index
+GET http://localhost:3333/orphanages
+
+
+###
+# Create Orphanages
+
+POST http://localhost:3333/orphanages
+Content-Type: application/json
+
+{
+	"name": "Lar das meninas",
+	"latitude": -23.568073,
+	"longitude": -46.619986,
+	"about": "Sobre o orphanato",
+	"instructions": "visite",
+	"opening_hours": "Das 8 às 18h",
+	"open_on_weekends": true
+}
